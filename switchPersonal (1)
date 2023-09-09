@@ -1,0 +1,17 @@
+meses_del_año <-"enero"
+mensajes <-switch(
+  meses_del_año,
+  enero="Es el primer mes del año.",
+  febrero="Es el segundo mes del año.",
+  marzo="Es el tercer mes del año.",
+  abril="Es el cuarto mes del año.",
+  mayo="Es el quinto mes del año.",
+  junio="Es el sexto mes del año.",
+  julio="Es el septimo mes del año.",
+  agosto="Es el octavo mes del año.",
+  septiembe="Es el noveno mes del año.",
+  octubre="Es el decimo mes del  año.",
+  noviembe="Es el decimo primero.",
+  diciembre="Es el decimo segudo."
+)
+cat(mensaje)
